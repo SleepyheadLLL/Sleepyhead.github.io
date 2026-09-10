@@ -43,6 +43,7 @@
     "featuredOrder": 2,
     "venue": "JISA",
     "year": "2026",
+    "highlight": "CCF C",
     "thumbnail": "assets/publications/coauthor/ABE-FL.png",
     "tags": [],
     "category": "security"
@@ -57,6 +58,7 @@
     "featuredOrder": 3,
     "venue": "NDSS 2026",
     "year": "2026",
+    "highlight": "CCF A",
     "thumbnail": "assets/publications/coauthor/poster_ndss26.jpg",
     "tags": [
       {
@@ -76,6 +78,7 @@
     "featuredOrder": 4,
     "venue": "TDSC 2026",
     "year": "2026",
+    "highlight": "CCF A",
     "logos": [
       {
         "image": "assets/publications/logo/Ieee_blue.jpg",

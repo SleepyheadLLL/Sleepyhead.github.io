@@ -475,14 +475,17 @@ details summary {
 }
 
 .pub-badge-highlight {
-    display: inline-block;
-    background-color: #ef4444;
-    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid rgba(180, 138, 77, 0.24);
+    background-color: #fff7ed;
+    color: #9a6a2f;
     font-size: 0.75rem;
-    font-weight: 700;
-    padding: 0.16rem 0.5rem;
+    font-weight: 650;
+    padding: 0.17rem 0.56rem;
     border-radius: 999px;
     line-height: 1.2;
+    box-shadow: 0 1px 2px rgba(15, 23, 42, 0.03);
 }
 
 .pub-list-item.with-thumbnail-expanded {
