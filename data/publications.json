@@ -44,6 +44,12 @@
     "venue": "JISA",
     "year": "2026",
     "highlight": "CCF C",
+    "logos": [
+      {
+        "image": "assets/publications/logo/elsevier-logo-orange.svg",
+        "alt": "Elsevier logo"
+      }
+    ],
     "thumbnail": "assets/publications/coauthor/ABE-FL.png",
     "tags": [],
     "category": "security"
