@@ -58,6 +58,12 @@
     "featuredOrder": 3,
     "venue": "NDSS 2026",
     "year": "2026",
+    "logos": [
+      {
+        "image": "assets/publications/logo/NDSS_Logo2026.png",
+        "alt": "NDSS 2026 logo"
+      }
+    ],
     "thumbnail": "assets/publications/coauthor/poster_ndss26.jpg",
     "tags": [
       {

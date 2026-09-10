@@ -163,6 +163,7 @@ function loadPublications() {
 
             if (allContainer) {
                 renderAllPublicationsPage(allContainer, publications);
+                setupPublicationFilterNavigation(allContainer, publications);
             }
         })
         .catch(error => {
@@ -495,6 +496,8 @@ function getPublicationFilter() {
 function updateFilterButtons(filter) {
     document.querySelectorAll('.filter-link').forEach(link => {
         link.classList.remove('active');
+        link.removeAttribute('target');
+        link.removeAttribute('rel');
     });
 
     if (filter === 'first-author') {
@@ -513,6 +516,44 @@ function updateFilterButtons(filter) {
             element.classList.add('active');
         }
     }
+}
+
+function setupPublicationFilterNavigation(container, publications) {
+    window.__allPublicationsPageState = { container, publications };
+
+    document.querySelectorAll('.filter-link').forEach(link => {
+        link.removeAttribute('target');
+        link.removeAttribute('rel');
+    });
+
+    if (window.__publicationFilterNavigationReady) {
+        return;
+    }
+
+    window.__publicationFilterNavigationReady = true;
+
+    document.addEventListener('click', event => {
+        const link = event.target.closest('.filter-link');
+        if (!link || !document.getElementById('all-publications-container')) {
+            return;
+        }
+
+        event.preventDefault();
+        const nextUrl = new URL(link.getAttribute('href') || 'all-publications.html', window.location.href);
+        window.history.pushState({}, '', nextUrl);
+
+        const state = window.__allPublicationsPageState;
+        if (state && state.container && Array.isArray(state.publications)) {
+            renderAllPublicationsPage(state.container, state.publications);
+        }
+    });
+
+    window.addEventListener('popstate', () => {
+        const state = window.__allPublicationsPageState;
+        if (state && state.container && Array.isArray(state.publications)) {
+            renderAllPublicationsPage(state.container, state.publications);
+        }
+    });
 }
 
 function getHighlightBadge(highlightText) {
@@ -688,7 +729,8 @@ function shouldOpenInNewTab(href) {
     if (/^[a-zA-Z]:\\/.test(href)) {
         return false;
     }
-    if (href.endsWith('.html')) {
+    const pathOnly = href.split(/[?#]/)[0];
+    if (pathOnly.endsWith('.html')) {
         return false;
     }
     return true;
