@@ -4,6 +4,12 @@ document.addEventListener('DOMContentLoaded', function() {
         currentYear.textContent = new Date().getFullYear();
     }
 
+    const lastUpdated = document.getElementById('last-updated');
+    if (lastUpdated) {
+        const d = new Date(document.lastModified);
+        lastUpdated.textContent = d.toLocaleDateString('en-US', { year: 'numeric', month: '2-digit', day: '2-digit' });
+    }
+
     setupMobileMenu();
     setupSmoothScroll();
     setupNavHighlight();
