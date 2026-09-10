@@ -1,48 +1,130 @@
 [
   {
-    "title": "AcaNova-X: A Modern and Elegant Academic Website Template",
-    "displayTitle": "AcaNova-X: A Modern Academic Homepage with Featured Publications and Demo Preview Support",
-    "authors": "<strong>Your Name</strong>*, Collaborator A*, Collaborator B",
+    "title": "Privacy Loss of Noise Perturbation via Concentration Analysis of A Product Measure",
+    "displayTitle": "Privacy Loss of Noise Perturbation via Concentration Analysis of A Product Measure",
+    "authors": "<strong>Shuainan Liu</strong>, Tianxi Ji, Zhongshuo Fang, Lu Wei, and Pan Li",
     "type": "accepted",
     "isFirstAuthor": true,
     "showOnHomepage": true,
     "featuredOrder": 1,
-    "venue": "CVPR 2025",
-    "year": "2025",
-    "highlight": "(Oral)",
-    "thumbnail": "assets/publications/placeholder/paper-thumb.png",
+    "venue": "SIGMOD 2026",
+    "year": "2026",
+    "highlight": "CCF A; Acceptance rate: 349/1049",
+    "logos": [
+      {
+        "image": "assets/publications/logo/sigmod.jpg",
+        "alt": "SIGMOD logo"
+      },
+      {
+        "image": "assets/publications/logo/acm_logo.png",
+        "alt": "ACM logo"
+      }
+    ],
+    "thumbnail": "assets/publications/coauthor/theta_sigmod.jpg",
     "tags": [
-      { "text": "Paper", "link": "#" },
-      { "text": "Code", "link": "#" },
-      { "text": "Project Page", "link": "#" }
-    ]
+      {
+        "text": "Paper",
+        "link": "assets/publications/papers/Product noise_sigmod26.pdf"
+      },
+      {
+        "text": "Code",
+        "link": "https://github.com/issleepgroup/Product-Noise-ERM"
+      }
+    ],
+    "category": "privacy"
   },
   {
-    "title": "Another Great Research Work on Machine Learning",
-    "authors": "Collaborator A, <strong>Your Name</strong>, Collaborator B",
+    "title": "ABE-FL: Efficient and Secure Federated Learning Based on CP-ABE with High-Security Elliptic Curves",
+    "displayTitle": "ABE-FL: Efficient and Secure Federated Learning Based on CP-ABE with High-Security Elliptic Curves",
+    "authors": "Shixun Li, Maoli Tang, <strong>Shuainan Liu</strong>, Hongjie Zhang, Rong Wang, and Chaosheng Feng",
     "type": "accepted",
     "isFirstAuthor": false,
     "showOnHomepage": true,
     "featuredOrder": 2,
-    "venue": "NeurIPS 2024",
-    "year": "2024",
-    "highlight": "(Spotlight)",
-    "thumbnail": "assets/publications/placeholder/paper-thumb.png",
-    "tags": [
-      { "text": "Paper", "link": "#" }
-    ]
+    "venue": "JISA 2026",
+    "year": "2026",
+    "thumbnail": "assets/publications/coauthor/ABE-FL.png",
+    "tags": [],
+    "category": "security"
   },
   {
-    "title": "Preprint Example with Demo Preview",
-    "authors": "<strong>Your Name</strong>, Collaborator C, Collaborator D",
-    "type": "preprint",
+    "title": "Poster: Genomic Data Generation via Correlation-Guided and Privacy-Preserving Diffusion",
+    "displayTitle": "Poster: Genomic Data Generation via Correlation-Guided and Privacy-Preserving Diffusion",
+    "authors": "You Li, <strong>Shuainan Liu</strong>, Shaojie Zhan, Zhongshuo Fang, and Tianxi Ji",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": true,
+    "featuredOrder": 3,
+    "venue": "NDSS 2026",
+    "year": "2026",
+    "thumbnail": "assets/publications/coauthor/poster_ndss26.jpg",
+    "tags": [
+      {
+        "text": "Poster",
+        "link": "assets/publications/papers/poster_ndss26.pdf"
+      }
+    ],
+    "category": "privacy"
+  },
+  {
+    "title": "UR-CP-ABE: CP-ABE with Flexible Construction Mechanism and Efficient User Revocation Capability for Access Control in the Cloud",
+    "displayTitle": "UR-CP-ABE: CP-ABE with Flexible Construction Mechanism and Efficient User Revocation Capability for Access Control in the Cloud",
+    "authors": "Zhen Guo, Jiangkai Gao, <strong>Shuainan Liu</strong>, Rong Wang, Chaosheng Feng, Keping Yu, Kim-Kwang Raymond Choo, and Mohsen Guizani",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": true,
+    "featuredOrder": 4,
+    "venue": "TDSC 2026",
+    "year": "2026",
+    "logos": [
+      {
+        "image": "assets/publications/logo/Ieee_blue.jpg",
+        "alt": "IEEE logo"
+      }
+    ],
+    "thumbnail": "assets/publications/coauthor/UR-CP-ABE.png",
+    "tags": [
+      {
+        "text": "Paper",
+        "link": "assets/publications/papers/UR-CP-ABE.pdf"
+      }
+    ],
+    "category": "security"
+  },
+  {
+    "title": "A File Hierarchy CP-ABE Scheme Supporting Graded User Access",
+    "authors": "<strong>Shuainan Liu</strong>, Bin Liu, Zhen Guo, Chaosheng Feng, Zhiguang Qin, and Yu Qing",
+    "type": "published",
     "isFirstAuthor": true,
     "showOnHomepage": false,
-    "venue": "Under Review",
-    "thumbnail": "assets/publications/placeholder/paper-thumb.png",
-    "tags": [
-      { "text": "Paper", "link": "#" },
-      { "text": "Code", "link": "#" }
-    ]
+    "venue": "Journal of Software",
+    "year": "2023",
+    "highlight": "CCF T1",
+    "tags": [],
+    "category": "security"
+  },
+  {
+    "title": "A CP-WABE Scheme Supports Offline/Online Encryption and Verifiable Outsourced Decryption",
+    "authors": "Hang Li, Chaosheng Feng, <strong>Shuainan Liu</strong>, Bin Liu, and Kaiqiang Zhao",
+    "type": "published",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "venue": "Acta Electronica Sinica",
+    "year": "2020",
+    "highlight": "CCF T1",
+    "tags": [],
+    "category": "security"
+  },
+  {
+    "title": "A KP-ABE Scheme with Outsourced Decryption",
+    "authors": "Yunxia Jin, Hekun Yang, Chaosheng Feng, <strong>Shuainan Liu</strong>, Hang Li, Liping Zou, and Guogen Wan",
+    "type": "published",
+    "isFirstAuthor": false,
+    "showOnHomepage": false,
+    "venue": "Acta Electronica Sinica",
+    "year": "2020",
+    "highlight": "CCF T1",
+    "tags": [],
+    "category": "security"
   }
 ]

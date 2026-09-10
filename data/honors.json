@@ -1,12 +1,7 @@
 [
-  {
-    "date": "2025",
-    "title": "Best Paper Award",
-    "org": "International Conference on Computer Vision (ICCV)"
-  },
-  {
-    "date": "2024",
-    "title": "Outstanding PhD Student Award",
-    "org": "Your University"
-  }
+  {"date":"2026","title":"Fellowship Grant","org":"Institute for Human Sciences (IHS)"},
+  {"date":"2023 - 2027","title":"Distinguished Graduate Student Assistantship","org":"Texas Tech University"},
+  {"date":"2021","title":"Outstanding Master's Thesis","org":"Sichuan Normal University"},
+  {"date":"2020","title":"Third-Class Graduate Student Academic Scholarship","org":"Sichuan Normal University"},
+  {"date":"2018 & 2019","title":"Second-Class Graduate Student Academic Scholarship","org":"Sichuan Normal University"}
 ]
