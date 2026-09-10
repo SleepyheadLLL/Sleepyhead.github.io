@@ -516,14 +516,15 @@ function updateFilterButtons(filter) {
 }
 
 function getHighlightBadge(highlightText) {
-    const text = String(highlightText || '').toLowerCase();
+    const originalText = String(highlightText || '').trim();
+    const text = originalText.toLowerCase();
     if (text.includes('oral')) {
         return 'Oral';
     }
     if (text.includes('spotlight')) {
         return 'Spotlight';
     }
-    return '';
+    return originalText;
 }
 
 function getPreferredThumbnail(thumbnailPath) {

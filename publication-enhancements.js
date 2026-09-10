@@ -53,7 +53,7 @@
 
         if (/SIGMOD/i.test(text)) return `SIGMOD${yearSuffix}`;
         if (/NDSS/i.test(text)) return `NDSS${yearSuffix}`;
-        if (/JISA/i.test(text)) return `JISA${yearSuffix}`;
+        if (/JISA/i.test(text)) return 'JISA';
 
         return typeof originalVenueShortName === 'function'
             ? originalVenueShortName(venueStr, year)
