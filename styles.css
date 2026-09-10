@@ -205,6 +205,29 @@ details summary {
 
 .school-logo-container {
     box-sizing: border-box;
+    overflow: hidden;
+}
+
+.institution-logo {
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    max-height: none;
+    object-fit: contain;
+    transform-origin: center;
+}
+
+.institution-logo-ttu {
+    transform: scale(1.08);
+}
+
+.institution-logo-sicnu {
+    transform: scale(1.08);
+}
+
+.institution-logo-spd {
+    transform: scale(1.08);
 }
 
 .content-container {
