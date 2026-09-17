@@ -34,13 +34,28 @@
     "category": "privacy"
   },
   {
+    "title": "Temporal Consistency Gating for Training with Differential Privacy",
+    "displayTitle": "Temporal Consistency Gating for Training with Differential Privacy",
+    "authors": "Shaojie Zhan, <strong>Shuainan Liu</strong>, and Tianxi Ji",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": true,
+    "featuredOrder": 2,
+    "venue": "NDSS 2027",
+    "year": "2027",
+    "highlight": "CCF A",
+    "thumbnail": "assets/publications/papers/NDSS26DP.png",
+    "tags": [],
+    "category": "privacy"
+  },
+  {
     "title": "ABE-FL: Efficient and Secure Federated Learning Based on CP-ABE with High-Security Elliptic Curves",
     "displayTitle": "ABE-FL: Efficient and Secure Federated Learning Based on CP-ABE with High-Security Elliptic Curves",
     "authors": "Shixun Li, Maoli Tang, <strong>Shuainan Liu</strong>, Hongjie Zhang, Rong Wang, and Chaosheng Feng",
     "type": "accepted",
     "isFirstAuthor": false,
     "showOnHomepage": true,
-    "featuredOrder": 2,
+    "featuredOrder": 3,
     "venue": "JISA",
     "year": "2026",
     "highlight": "CCF C",
@@ -61,7 +76,7 @@
     "type": "accepted",
     "isFirstAuthor": false,
     "showOnHomepage": true,
-    "featuredOrder": 3,
+    "featuredOrder": 5,
     "venue": "NDSS 2026",
     "year": "2026",
     "logos": [
