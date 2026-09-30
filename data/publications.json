@@ -44,6 +44,12 @@
     "venue": "NDSS 2027",
     "year": "2027",
     "highlight": "CCF A",
+    "logos": [
+      {
+        "image": "assets/publications/logo/NDSS_Logo2026.png",
+        "alt": "NDSS logo"
+      }
+    ],
     "thumbnail": "assets/publications/papers/NDSS26DP.png",
     "tags": [],
     "category": "privacy"
