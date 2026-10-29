@@ -34,13 +34,33 @@
     "category": "privacy"
   },
   {
+    "title": "SE-RFH-CP-ABE: A Security-Enhanced and Revocable File Hierarchy CP-ABE Scheme for Cloud-Based EHR Systems",
+    "displayTitle": "SE-RFH-CP-ABE: A Security-Enhanced and Revocable File Hierarchy CP-ABE Scheme for Cloud-Based EHR Systems",
+    "authors": "<strong>Shuainan Liu</strong>, Hourui Deng, Tianxi Ji, and Chaosheng Feng",
+    "type": "accepted",
+    "isFirstAuthor": true,
+    "showOnHomepage": true,
+    "featuredOrder": 2,
+    "venue": "IEEE Transactions on Consumer Electronics",
+    "year": "2026",
+    "logos": [
+      {
+        "image": "assets/publications/logo/Ieee_blue.jpg",
+        "alt": "IEEE logo"
+      }
+    ],
+    "thumbnail": "assets/publications/papers/TCE-SE-RFH-CP-ABE .png",
+    "tags": [],
+    "category": "security"
+  },
+  {
     "title": "Temporal Consistency Gating for Training with Differential Privacy",
     "displayTitle": "Temporal Consistency Gating for Training with Differential Privacy",
     "authors": "Shaojie Zhan, <strong>Shuainan Liu</strong>, and Tianxi Ji",
     "type": "accepted",
     "isFirstAuthor": false,
     "showOnHomepage": true,
-    "featuredOrder": 2,
+    "featuredOrder": 3,
     "venue": "NDSS 2027",
     "year": "2027",
     "highlight": "CCF A",
@@ -61,7 +81,7 @@
     "type": "accepted",
     "isFirstAuthor": false,
     "showOnHomepage": true,
-    "featuredOrder": 3,
+    "featuredOrder": 4,
     "venue": "JISA",
     "year": "2026",
     "highlight": "CCF C",
@@ -81,8 +101,8 @@
     "authors": "You Li, <strong>Shuainan Liu</strong>, Shaojie Zhan, Zhongshuo Fang, and Tianxi Ji",
     "type": "accepted",
     "isFirstAuthor": false,
-    "showOnHomepage": true,
-    "featuredOrder": 5,
+    "showOnHomepage": false,
+    "featuredOrder": 6,
     "venue": "NDSS 2026",
     "year": "2026",
     "logos": [
@@ -107,7 +127,7 @@
     "type": "accepted",
     "isFirstAuthor": false,
     "showOnHomepage": true,
-    "featuredOrder": 4,
+    "featuredOrder": 5,
     "venue": "TDSC 2026",
     "year": "2026",
     "highlight": "CCF A",
