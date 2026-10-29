@@ -75,6 +75,44 @@
     "category": "privacy"
   },
   {
+    "title": "UR-CP-ABE: CP-ABE with Flexible Construction Mechanism and Efficient User Revocation Capability for Access Control in the Cloud",
+    "displayTitle": "UR-CP-ABE: CP-ABE with Flexible Construction Mechanism and Efficient User Revocation Capability for Access Control in the Cloud",
+    "authors": "Zhen Guo, Jiangkai Gao, <strong>Shuainan Liu</strong>, Rong Wang, Chaosheng Feng, Keping Yu, Kim-Kwang Raymond Choo, and Mohsen Guizani",
+    "type": "accepted",
+    "isFirstAuthor": false,
+    "showOnHomepage": true,
+    "featuredOrder": 5,
+    "venue": "TDSC 2026",
+    "year": "2026",
+    "highlight": "CCF A",
+    "logos": [
+      {
+        "image": "assets/publications/logo/Ieee_blue.jpg",
+        "alt": "IEEE logo"
+      }
+    ],
+    "thumbnail": "assets/publications/coauthor/UR-CP-ABE.png",
+    "tags": [
+      {
+        "text": "Paper",
+        "link": "assets/publications/papers/UR-CP-ABE.pdf"
+      }
+    ],
+    "category": "security"
+  },
+  {
+    "title": "A File Hierarchy CP-ABE Scheme Supporting Graded User Access",
+    "authors": "<strong>Shuainan Liu</strong>, Bin Liu, Zhen Guo, Chaosheng Feng, Zhiguang Qin, and Yu Qing",
+    "type": "published",
+    "isFirstAuthor": true,
+    "showOnHomepage": false,
+    "venue": "Journal of Software",
+    "year": "2023",
+    "highlight": "CCF T1",
+    "tags": [],
+    "category": "security"
+  },
+  {
     "title": "ABE-FL: Efficient and Secure Federated Learning Based on CP-ABE with High-Security Elliptic Curves",
     "displayTitle": "ABE-FL: Efficient and Secure Federated Learning Based on CP-ABE with High-Security Elliptic Curves",
     "authors": "Shixun Li, Maoli Tang, <strong>Shuainan Liu</strong>, Hongjie Zhang, Rong Wang, and Chaosheng Feng",
@@ -119,44 +157,6 @@
       }
     ],
     "category": "privacy"
-  },
-  {
-    "title": "UR-CP-ABE: CP-ABE with Flexible Construction Mechanism and Efficient User Revocation Capability for Access Control in the Cloud",
-    "displayTitle": "UR-CP-ABE: CP-ABE with Flexible Construction Mechanism and Efficient User Revocation Capability for Access Control in the Cloud",
-    "authors": "Zhen Guo, Jiangkai Gao, <strong>Shuainan Liu</strong>, Rong Wang, Chaosheng Feng, Keping Yu, Kim-Kwang Raymond Choo, and Mohsen Guizani",
-    "type": "accepted",
-    "isFirstAuthor": false,
-    "showOnHomepage": true,
-    "featuredOrder": 5,
-    "venue": "TDSC 2026",
-    "year": "2026",
-    "highlight": "CCF A",
-    "logos": [
-      {
-        "image": "assets/publications/logo/Ieee_blue.jpg",
-        "alt": "IEEE logo"
-      }
-    ],
-    "thumbnail": "assets/publications/coauthor/UR-CP-ABE.png",
-    "tags": [
-      {
-        "text": "Paper",
-        "link": "assets/publications/papers/UR-CP-ABE.pdf"
-      }
-    ],
-    "category": "security"
-  },
-  {
-    "title": "A File Hierarchy CP-ABE Scheme Supporting Graded User Access",
-    "authors": "<strong>Shuainan Liu</strong>, Bin Liu, Zhen Guo, Chaosheng Feng, Zhiguang Qin, and Yu Qing",
-    "type": "published",
-    "isFirstAuthor": true,
-    "showOnHomepage": false,
-    "venue": "Journal of Software",
-    "year": "2023",
-    "highlight": "CCF T1",
-    "tags": [],
-    "category": "security"
   },
   {
     "title": "A CP-WABE Scheme Supports Offline/Online Encryption and Verifiable Outsourced Decryption",
